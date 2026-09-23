@@ -1,32 +1,80 @@
-# React + TypeScript + Vite
+# ECI FIT
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Integrantes
 
-Currently, two official plugins are available:
+- Daniel Villamizar
+- Daniel Barrera
+- Juan Munar
+- Julian Giral
+- Sebastian Granados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Contexto del proyecto
 
-## React Compiler
+ECI FIT es una plataforma web de bienestar físico para la comunidad
+de la Escuela Colombiana de Ingeniería Julio Garavito.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La plataforma busca integrar actividad física, nutrición, descanso,
+retos, clanes y elementos de gamificación para fomentar hábitos
+saludables dentro de la comunidad ECI.
 
-## Expanding the Oxlint configuration
+## Logotipo
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+<!-- Agregar imagen del logo -->
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Manual de identidad
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+<!-- Agregar enlace al manual de identidad -->
+
+## Prototipo
+
+### Figma
+
+<!-- Agregar enlace al prototipo de Figma -->
+
+## Módulos de la aplicación
+
+### Actividad física
+
+Descripción del módulo y sus funcionalidades principales.
+
+<!-- Agregar captura del mockup -->
+
+### Nutrición
+
+Descripción del módulo y sus funcionalidades principales.
+
+<!-- Agregar captura del mockup -->
+
+### Misiones
+
+Descripción del módulo y sus funcionalidades principales.
+
+<!-- Agregar captura del mockup -->
+
+### Clanes
+
+Descripción del módulo y sus funcionalidades principales.
+
+<!-- Agregar captura del mockup -->
+
+### Ligas y temporadas
+
+Descripción del módulo y sus funcionalidades principales.
+
+<!-- Agregar captura del mockup -->
+
+### Actividades deportivas
+
+Descripción del módulo y sus funcionalidades principales.
+
+<!-- Agregar captura del mockup -->
+
+## Tecnologías
+
+- React
+- TypeScript
+- Vite
+
+## Estado del proyecto
+
+Sprint 1 - Estructura inicial del frontend.
