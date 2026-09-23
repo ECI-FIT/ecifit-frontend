@@ -1,45 +1,32 @@
-# ECI FIT
+# React + TypeScript + Vite
 
-## Integrantes
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-- Daniel Villamizar
-- Daniel Barrera
-- Juan Munar
-- Julian Giral
-- Sebastian Granados
+Currently, two official plugins are available:
 
-## Contexto del proyecto
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-ECI FIT es una plataforma web de bienestar físico para la comunidad de la Escuela Colombiana de Ingeniería Julio Garavito.
+## React Compiler
 
-La plataforma busca integrar actividades físicas, nutrición, retos, clanes y elementos de gamificación para fomentar hábitos saludables dentro de la comunidad ECI.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Identidad visual
+## Expanding the Oxlint configuration
 
-### Logo
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-<!-- Agregar logo -->
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
+```
 
-### Manual de identidad
-
-<!-- Agregar enlace al manual de identidad -->
-
-## Prototipo
-
-### Figma
-
-<!-- Agregar enlace al prototipo de Figma -->
-
-## Módulos
-
-<!-- Describir los módulos de la aplicación y agregar las capturas de los mockups -->
-
-## Tecnologías
-
-- React
-- TypeScript
-- Vite
-
-## Estado del proyecto
-
-Desarrollo inicial - Sprint 1.
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
