@@ -74,7 +74,9 @@ El logotipo de ECI FIT representa la relación entre:
 - 💻 Tecnología
 - 🏫 Comunidad ECI
 
-> 📌 **Aquí agregaremos la imagen del logo.**
+<p align="center">
+  <img src="./docs/logo/ecifit-logo.jpg" alt="Logo ECI FIT" width="300">
+</p>
 
 ---
 
@@ -260,7 +262,10 @@ ecifit-frontend/
 │   ├── 📁 manual-identidad/
 │   │   └── 📄 manual-identidad.html
 │   │
-│   └── 📁 mockups/
+│   ├── 📁 mockups/
+│   │
+│   └── 📁 logo/
+│       └── 🖼️ ecifit-logo.jpg
 │
 ├── 📁 public/
 │
