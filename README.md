@@ -90,152 +90,221 @@ El manual de identidad contiene los lineamientos visuales de ECI FIT, incluyendo
 
 ## 🖌️ Prototipo UX/UI
 
-Los diseños y flujos de navegación de ECI FIT fueron desarrollados en **Figma**.
+Los diseños y flujos de navegación de **ECI FIT** fueron desarrollados en Figma.
 
-🔗 **[Ver prototipo en Figma](PEGAR-AQUI-EL-LINK-DE-FIGMA)**
+🔗 **[🎨 Ver prototipo en Figma](https://www.figma.com/make/JCIrclYnSBOnLVtWOlqS7r/Desarrollar-mocks?fullscreen=1&t=zulUMUhfw3IMDuNT-1&code-node-id=0-6)**
 
 El prototipo permite visualizar las diferentes pantallas y flujos planteados para la plataforma antes de su implementación.
-
 ---
 
 # 🧩 Módulos de la aplicación
 
-## 🔐 Autenticación
+ECI FIT cuenta con diferentes módulos que permiten al usuario participar
+en una experiencia de bienestar físico basada en actividad, progreso,
+competencia y colaboración.
 
-Permite el acceso de los usuarios mediante las credenciales institucionales de la ECI.
+---
 
-📸 **Mockup:**
+## 🔐 Inicio de sesión
 
-> Agregar aquí la captura correspondiente.
+Pantalla de acceso a ECI FIT mediante el correo institucional de la
+Escuela Colombiana de Ingeniería Julio Garavito.
+
+El prototipo contempla validación del correo institucional y mensajes
+de error cuando los datos ingresados no cumplen con el formato esperado.
+
+<p align="center">
+  <img src="./docs/mockups/login.png" alt="Inicio de sesión ECI FIT" width="700">
+</p>
+
+---
+
+## 🎮 Creación del personaje
+
+Después de iniciar sesión, el usuario puede crear su personaje para
+participar en las dinámicas de las ligas de ECI FIT.
+
+En esta pantalla puede:
+
+- 👤 Definir su nombre de jugador.
+- 🎮 Personalizar la identidad inicial de su personaje.
+- 📈 Avanzar dentro del proceso de configuración.
+
+<p align="center">
+  <img src="./docs/mockups/crear-personaje.png" alt="Creación del personaje ECI FIT" width="700">
+</p>
+
+---
+
+## 🛡️ Selección de rol
+
+El usuario selecciona el rol que tendrá durante la temporada.
+
+El prototipo presenta tres roles:
+
+- 🛡️ **Tanque:** orientado a actividades de fuerza.
+- ⚡ **Corredor:** orientado a actividades cardiovasculares.
+- 🧠 **Estratega:** orientado a nutrición y asistencia.
+
+Cada rol cuenta con una categoría específica y proporciona
+multiplicadores de puntos en determinadas actividades.
+
+<p align="center">
+  <img src="./docs/mockups/seleccion-rol.png" alt="Selección de rol ECI FIT" width="700">
+</p>
 
 ---
 
 ## 🏠 Inicio
 
-Pantalla principal desde la cual el jugador puede consultar información relevante sobre su progreso, misiones, actividades y estado dentro de la plataforma.
+El inicio funciona como el panel principal del jugador.
 
-📸 **Mockup:**
+Desde esta pantalla se puede consultar:
 
-> Agregar aquí la captura correspondiente.
+- ⭐ Puntos y progreso en la liga.
+- 🏆 Ranking actual.
+- 🔥 Racha de actividad.
+- 🏋️ Sesiones registradas.
+- ⚔️ Estado de combate de la Guerra de Campus.
+- 🎯 Misiones disponibles.
+- 👥 Información del clan.
+- 🏰 Progreso de la Torre de Batalla.
 
----
+También permite acceder rápidamente a acciones como registrar una
+sesión de ejercicio, registrar una comida balanceada, realizar un
+check-in en el gimnasio y consultar las misiones.
 
-## 🏃‍♂️ Actividad física
-
-Permite registrar y consultar actividades físicas realizadas por el jugador.
-
-Entre sus funcionalidades se encuentran:
-
-- 🏋️ Registro de sesiones.
-- 📊 Consulta del progreso.
-- 🎯 Seguimiento de objetivos.
-- ⭐ Obtención de puntos.
-
-📸 **Mockup:**
-
-> Agregar aquí la captura correspondiente.
+<p align="center">
+  <img src="./docs/mockups/inicio.png" alt="Inicio ECI FIT" width="900">
+</p>
 
 ---
 
-## 🥗 Nutrición
+## 🏆 Ranking y ligas
 
-Módulo orientado al seguimiento de los hábitos alimenticios.
+Este módulo permite consultar la posición de los jugadores dentro
+del sistema competitivo de ECI FIT.
 
-La propuesta contempla el registro de alimentos y el uso de información nutricional para apoyar al usuario en el seguimiento de su alimentación.
+El prototipo permite visualizar:
 
-📸 **Mockup:**
+- 🌎 Ranking global.
+- 🏅 Liga actual.
+- 📊 Puntos de cada jugador.
+- 🥇 Posición en el ranking.
+- 🎓 Clasificación durante la semana de parciales.
 
-> Agregar aquí la captura correspondiente.
+El jugador puede identificar su posición y compararla con otros
+participantes.
+
+<p align="center">
+  <img src="./docs/mockups/ranking-ligas.png" alt="Ranking y ligas ECI FIT" width="900">
+</p>
+
+---
+
+## 🏋️ Registrar sesión
+
+Este módulo permite registrar una sesión de actividad física.
+
+El usuario puede seleccionar:
+
+- 🏋️ **Pesas**
+- 🏃 **Cardio**
+- 🧘 **Flexibilidad**
+
+También puede definir:
+
+- ⏱️ Duración de la sesión.
+- 💪 Intensidad del ejercicio.
+- ⭐ Puntos base obtenidos.
+
+<p align="center">
+  <img src="./docs/mockups/registrar-sesion.png" alt="Registrar sesión ECI FIT" width="900">
+</p>
 
 ---
 
 ## 🎯 Misiones
 
-Los jugadores pueden participar en misiones y retos para fomentar la actividad física y los hábitos saludables.
+El módulo de misiones presenta diferentes actividades que el jugador
+puede completar para obtener puntos y avanzar dentro de la temporada.
 
-Las misiones pueden otorgar:
+Se presentan:
 
-- ⭐ Puntos
-- 🏆 Progreso
-- 🎖️ Recompensas
-- 📈 Avance dentro de la temporada
+### 📅 Misiones diarias
 
-📸 **Mockup:**
+Permiten completar actividades como:
 
-> Agregar aquí la captura correspondiente.
+- 🏋️ Sesiones de pesas.
+- 🥗 Registro de alimentación.
+- 📍 Check-in en el gimnasio.
+- 🏃 Sesiones de cardio.
+
+### 📆 Misiones semanales
+
+Incluyen objetivos acumulativos relacionados con:
+
+- 🏋️ Sesiones de ejercicio.
+- 🥗 Comidas balanceadas.
+- 👥 Invitaciones a un clan.
+
+También se muestra el progreso de cada misión y las recompensas
+obtenidas al completarla.
+
+<p align="center">
+  <img src="./docs/mockups/misiones.png" alt="Misiones ECI FIT" width="900">
+</p>
 
 ---
 
 ## 👥 Clanes
 
-Los jugadores pueden formar parte de clanes y colaborar con otros miembros de la comunidad.
+El módulo de clanes permite explorar y participar en grupos de
+jugadores dentro de ECI FIT.
 
-Los clanes permiten desarrollar:
+El prototipo permite:
 
-- 🤝 Trabajo colaborativo.
-- 🎯 Misiones grupales.
-- 🏆 Competencias.
-- ⚔️ Guerras de clanes.
+- 🔎 Explorar clanes.
+- 🔍 Buscar clanes por nombre o etiqueta.
+- 🟢 Filtrar clanes activos e inactivos.
+- 👥 Consultar cantidad de miembros.
+- 🏆 Consultar liga y estadísticas del clan.
+- 📊 Consultar puntos semanales y porcentaje de victorias.
+- 🤝 Unirse a un clan cuando existen cupos disponibles.
+- ⚔️ Consultar información de los clanes.
 
-📸 **Mockup:**
-
-> Agregar aquí la captura correspondiente.
-
----
-
-## 🏆 Ligas y temporadas
-
-ECI FIT incorpora un sistema de progresión basado en temporadas y ligas.
-
-Los jugadores pueden avanzar dentro de diferentes categorías de acuerdo con su participación y progreso.
-
-🥉 Bronze  
-🥈 Silver  
-🥇 Gold  
-💎 Diamond
-
-📸 **Mockup:**
-
-> Agregar aquí la captura correspondiente.
+<p align="center">
+  <img src="./docs/mockups/clanes.png" alt="Clanes ECI FIT" width="900">
+</p>
 
 ---
 
-## ⚔️ Guerras de Campus
+## ⚔️ Guerra de Campus
 
-Una de las dinámicas diferenciadoras de ECI FIT son las **Guerras de Campus**.
+La Guerra de Campus es una de las principales dinámicas competitivas
+del prototipo.
 
-Esta propuesta permite enfrentar clanes en diferentes desafíos y actividades colaborativas.
+En este módulo los clanes se enfrentan mediante una dinámica de
+ataque y defensa de una torre.
 
-Los jugadores pueden asumir diferentes roles dentro de las dinámicas:
+La pantalla permite visualizar:
 
-- 🛡️ Tanque
-- 🏃 Corredor
-- 🧠 Estratega
+- 🏰 Torre de cada equipo.
+- ❤️ Puntos de vida de las torres.
+- ⚔️ Daño realizado por los jugadores.
+- 🛡️ Estado de defensa o ataque.
+- ⏱️ Tiempo restante del enfrentamiento.
+- 🧩 Sinergia entre los diferentes roles.
+- 📊 Feed de asedio con las actividades realizadas.
+- 🎓 Eventos especiales como la semana de parciales.
 
-La propuesta busca combinar actividad física, colaboración y gamificación.
+Los roles seleccionados por los jugadores participan en la estrategia
+del enfrentamiento y pueden generar bonificaciones cuando se
+completan las condiciones correspondientes.
 
-📸 **Mockup:**
-
-> Agregar aquí la captura correspondiente.
-
----
-
-## ⚽ Actividades deportivas
-
-Este módulo permite consultar y participar en actividades deportivas organizadas dentro de la comunidad ECI.
-
-Puede incluir:
-
-- ⚽ Fútbol
-- 🏀 Baloncesto
-- 🏐 Voleibol
-- 🏃 Actividades físicas
-- 🤝 Actividades grupales
-
-📸 **Mockup:**
-
-> Agregar aquí la captura correspondiente.
-
+<p align="center">
+  <img src="./docs/mockups/guerra-campus.png" alt="Guerra de Campus ECI FIT" width="900">
+</p>
 ---
 
 # 🛠️ Tecnologías
@@ -263,6 +332,15 @@ ecifit-frontend/
 │   │   └── 📄 manual-identidad.html
 │   │
 │   ├── 📁 mockups/
+│   │   ├── 🖼️ login.png
+│   │   ├── 🖼️ crear-personaje.png
+│   │   ├── 🖼️ seleccion-rol.png
+│   │   ├── 🖼️ inicio.png
+│   │   ├── 🖼️ ranking-ligas.png
+│   │   ├── 🖼️ registrar-sesion.png
+│   │   ├── 🖼️ misiones.png
+│   │   ├── 🖼️ clanes.png
+│   │   └── 🖼️ guerra-campus.png
 │   │
 │   └── 📁 logo/
 │       └── 🖼️ ecifit-logo.jpg
